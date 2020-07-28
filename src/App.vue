@@ -43,12 +43,27 @@
 
 
     <div class="page">
-      <SolidLogin msg="this is an external message to Solid Login"/>
+      <hr>
+      <h1> Documentation </h1>
+      <p>All OVC-JV component has it's own doc in it you just add to include (copy all files in the /dist folder of the repo) it on a webpage as any other web component and set the attribute doc="true" or doc=true. </p>
+      <p>
+        example :
+        <b-alert variant="success" show >
+          <SolidLogin msg="This is a SolidLogin Component with no doc"/>
+          <hr>
+          <SolidLogin msg="This is a SolidLogin Component with doc" doc=true />
+
+        </b-alert>
+
+      </p>
+      <hr>
+      <h1>Activity Streams </h1>
       <AsNote msg="this is message for ASNOTE" />
-      <SolidLogin msg="this is anotherl message to Solid Login"/>
-
+      <hr>
+      <h1>Common</h1>
       <CommonLog msg="here is the common log" />
-
+      <hr>
+      Other tests, will be remove
       <!--<ValidationObserver ref="observer" v-slot="{ invalid }">-->
       <ValidationObserver ref="observer" v-slot="">
         <b-form @submit.prevent="onSubmit" novalidate>

@@ -3,6 +3,24 @@
     {{ msg }}
     <b-button @click="add" variant="primary">Add 90</b-button> !! {{ count }} mm
     <b-button >Login</b-button>
+
+    (doc={{ doc }})
+    <div v-if="doc" >
+      <b-alert show>
+        <p>
+          Pour cacher afficher cette doc utilisez l'attribut doc="true" / doc =" false"
+          AFFICHAGE ICI DE LA DOC OU DU LIEN VERS LA DOC PLUS COMPLETE de <b>{{ $options.name }}</b>
+        </p>
+        <a href="https://github.com/scenaristeur/ovc-jv/tree/master/src/components/Solid" target="_blank">more</a>
+        <!--
+        must insert codelab or other external code editor or a code editor component
+        <SolidLogin msg="This is a SolidLogin Component with no doc"/>
+
+        <SolidLogin msg="This is a SolidLogin Component with doc" doc=true /> -->
+
+
+      </b-alert>
+    </div>
   </div>
 </template>
 
@@ -15,7 +33,8 @@ export default {
   store,
   name: 'SolidLogin',
   props: {
-    msg: String
+    msg: String,
+    doc: [Boolean, String]
   },
   components: {
     BButton
