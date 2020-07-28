@@ -4,6 +4,9 @@ Async web components using Vuejs/view. To represent the new world. Ex composants
 activitystreams/ActivityPub .
 Holacratie / sociocratie... And many other things
 
+# DEMO
+https://github.com/scenaristeur/ovc-jv/demo.html
+
 # What is the next action to do ?
 https://github.com/scenaristeur/ovc-jv/projects/1#column-10196291
 
