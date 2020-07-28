@@ -31,3 +31,21 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # inspiré de
 https://dev.to/oxyyyyy/simple-weather-app-on-vue-js-1g20
+
+
+
+create subbranch with dist folder
+- comment the dist folder in the .gitignore file
+
+```
+git add dist -f && git commit -m "Initial dist subtree commit"
+```
+
+- build & publish to gh-pages
+
+```
+npm run build && git add .
+git commit -m "my modif"
+git push && git subtree push --prefix dist origin gh-pages
+
+```
