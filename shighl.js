@@ -36,7 +36,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		1: 0
+/******/ 		4: 0
 /******/ 	};
 /******/
 /******/
@@ -8694,11 +8694,23 @@ var componentNormalizer = __webpack_require__("2877");
 
 
 
-window.customElements.define('shighl-current-weather', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, "6bf0"))))
+window.customElements.define('shighl-app', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, "33ba"))))
 
-window.customElements.define('shighl-forecast', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, "e50f"))))
+window.customElements.define('shighl-current-weather', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, "6bf0"))))
 
-window.customElements.define('shighl-hello-world', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => __webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, "f49e"))))
+window.customElements.define('shighl-forecast', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, "e50f"))))
+
+window.customElements.define('shighl-hello-world', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => __webpack_require__.e(/* import() */ 17).then(__webpack_require__.bind(null, "f49e"))))
+
+window.customElements.define('shighl-as-activity', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => __webpack_require__.e(/* import() */ 13).then(__webpack_require__.bind(null, "8e11"))))
+
+window.customElements.define('shighl-as-actor', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => __webpack_require__.e(/* import() */ 14).then(__webpack_require__.bind(null, "11ed"))))
+
+window.customElements.define('shighl-as-note', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, "c1f5"))))
+
+window.customElements.define('shighl-as-object', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => __webpack_require__.e(/* import() */ 16).then(__webpack_require__.bind(null, "5eb1"))))
+
+window.customElements.define('shighl-solid-login', vue_wc_wrapper(vue_runtime_esm["a" /* default */], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(12)]).then(__webpack_require__.bind(null, "8638"))))
 
 /***/ }),
 
