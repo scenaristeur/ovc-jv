@@ -1,31 +1,30 @@
 <template>
   <div>
-    {{ msg }}
-    <b-button @click="add" variant="primary">AddML</b-button> - {{ count }}-
     <br />
-    <b-list-group v-if="weather.main">
-      <b-list-group-item>Current Temparature: {{weather.main.temp - 273.15}} C</b-list-group-item>
-      <b-list-group-item>High: {{weather.main.temp_max - 273.15}} C</b-list-group-item>
-      <b-list-group-item>Low: {{weather.main.temp_min - 273.15}} C</b-list-group-item>
-      <b-list-group-item>Pressure: {{weather.main.pressure }}mb</b-list-group-item>
-      <b-list-group-item>Humidity: {{weather.main.humidity }}%</b-list-group-item>
+    {{ msg }}
+    <b-button @click="add" variant="primary">Add 90</b-button> !! {{ count }} mm
+    <b-list-group v-for="(l, i) of forecast.list" :key="i">
+      <b-list-group-item>
+        <b>Date: {{l.dt_txt}}</b>
+      </b-list-group-item>
+      <b-list-group-item>Temperature: {{l.main.temp - 273.15}} C</b-list-group-item>
+      <b-list-group-item>High: {{l.main.temp_max - 273.15}} C</b-list-group-item>
+      <b-list-group-item>Low: {{l.main.temp_min }}mb</b-list-group-item>
+      <b-list-group-item>Pressure: {{l.main.pressure }}mb</b-list-group-item>
     </b-list-group>
   </div>
 </template>
 
 <script>
-
 import { requestsMixin } from "@/mixins/requestsMixin";
 import store from "@/store";
 import { BListGroup, BListGroupItem, BButton } from "bootstrap-vue";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-
 export default {
   store,
-  name: "CurrentWeather",
-  mounted() {},
+  name: "Forecast",
   mixins: [requestsMixin],
   components: {
     BListGroup,
@@ -46,19 +45,19 @@ export default {
   },
   data() {
     return {
-      weather: {}
+      forecast: []
     };
   },
   watch: {
     async keyword(val) {
-      const response = await this.searchWeather(val);
-      this.weather = response.data;
+      const response = await this.searchForecast(val);
+      this.forecast = response.data;
     }
   },
   methods: {
     add(){
-      console.log("add",9)
-      this.$store.commit("add", 9);
+      console.log("add",8)
+      this.$store.commit("add", 8);
     }
   }
 };

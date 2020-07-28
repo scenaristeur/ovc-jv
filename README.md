@@ -1,4 +1,12 @@
 # weather-widget
+https://dev.to/oxyyyyy/simple-weather-app-on-vue-js-1g20
+
+# Build autonomous webcomponents
+npm run wc-build-shighl-onlycomp
+
+"wc-build-shighl": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*.vue,./src/App.vue",
+
+(could remove --inline ?)
 
 ## Project setup
 ```
