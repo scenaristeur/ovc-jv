@@ -8,7 +8,7 @@ Holacratie / sociocratie... And many other things
 https://github.com/scenaristeur/ovc-jv/projects/1#column-10196291
 
 # Build autonomous webcomponents
-Build all with ``` npm run wc-build-all ``` then ``` npm run wc-test ``` to see it live ! 
+Build all with ``` npm run wc-build-all ``` then ``` npm run wc-test ``` to see it live !
 
 
 
@@ -27,6 +27,14 @@ npm install
 ```
 npm run serve
 ```
+
+### BUILD SAVE & PUBLISH
+
+```
+npm run git -- "build wc in subfloders"
+```
+
+
 
 ### Compiles and minifies for production
 ```
