@@ -4,7 +4,8 @@ Async web components using Vuejs/view. To represent the new world. Ex composants
 activitystreams/ActivityPub .
 Holacratie / sociocratie... And many other things
 
-
+# What is the next action to do ? 
+https://github.com/scenaristeur/ovc-jv/projects/1#column-10196291
 
 # Build autonomous webcomponents
 npm run wc-build-shighl-onlycomp
