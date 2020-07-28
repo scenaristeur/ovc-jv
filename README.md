@@ -1,3 +1,10 @@
+# Goal 
+Async web components using Vuejs/view. To represent the new world. Ex composants representing :
+
+activitystreams/ActivityPub .
+Holacratie / sociocratie... And many other things
+
+
 
 # Build autonomous webcomponents
 npm run wc-build-shighl-onlycomp
