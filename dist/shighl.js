@@ -8384,7 +8384,7 @@ __webpack_require__.r(__webpack_exports__);
 
 if (typeof window !== 'undefined') {
   var currentScript = window.document.currentScript
-  if (Object({"NODE_ENV":"production","VUE_APP_APIKEY":"2ff19ad76092e0aa781bb55d473a6c12","BASE_URL":"/"}).NEED_CURRENTSCRIPT_POLYFILL) {
+  if (Object({"NODE_ENV":"production","VUE_APP_APIKEY":"2ff19ad76092e0aa781bb55d473a6c12","BASE_URL":"/ovc-jv/"}).NEED_CURRENTSCRIPT_POLYFILL) {
     var getCurrentScript = __webpack_require__("8875")
     currentScript = getCurrentScript()
 

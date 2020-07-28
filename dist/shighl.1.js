@@ -2962,7 +2962,7 @@ var hasIntersectionObserverSupport = isBrowser && 'IntersectionObserver' in wind
 
 var getEnv = function getEnv(key) {
   var fallback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-  var env = typeof process !== 'undefined' && process ? Object({"NODE_ENV":"production","VUE_APP_APIKEY":"2ff19ad76092e0aa781bb55d473a6c12","BASE_URL":"/"}) || false : {};
+  var env = typeof process !== 'undefined' && process ? Object({"NODE_ENV":"production","VUE_APP_APIKEY":"2ff19ad76092e0aa781bb55d473a6c12","BASE_URL":"/ovc-jv/"}) || false : {};
 
   if (!key) {
     /* istanbul ignore next */
