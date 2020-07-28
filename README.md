@@ -1,13 +1,17 @@
-# Goal 
+# Goal
 Async web components using Vuejs/view. To represent the new world. Ex composants representing :
 
 activitystreams/ActivityPub .
 Holacratie / sociocratie... And many other things
 
-# What is the next action to do ? 
+# What is the next action to do ?
 https://github.com/scenaristeur/ovc-jv/projects/1#column-10196291
 
 # Build autonomous webcomponents
+Build all with ``` npm run wc-build-all ``` then ``` npm run wc-test ``` to see it live ! 
+
+
+
 npm run wc-build-shighl-onlycomp
 
 "wc-build-shighl": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*.vue,./src/App.vue",

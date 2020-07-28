@@ -38,6 +38,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
-@import "./../../node_modules/bootstrap-vue/dist/bootstrap-vue.css";
+@import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./../../../node_modules/bootstrap-vue/dist/bootstrap-vue.css";
 </style>

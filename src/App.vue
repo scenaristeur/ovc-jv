@@ -4,7 +4,10 @@
       <b-navbar-brand href="#">Weather App</b-navbar-brand>
     </b-navbar>
     <div class="page">
-      <SolidLogin />
+      <SolidLogin msg="this is an external message to Solid Login"/>
+      <AsNote msg="this is message for ASNOTE" />
+      <SolidLogin msg="this is anotherl message to Solid Login"/>
+
       <!--<ValidationObserver ref="observer" v-slot="{ invalid }">-->
       <ValidationObserver ref="observer" v-slot="">
         <b-form @submit.prevent="onSubmit" novalidate>
@@ -62,7 +65,8 @@ export default {
   components: {
     CurrentWeather: () => import ("@/components/CurrentWeather.vue"),
     Forecast: () => import  ("@/components/Forecast.vue"),
-    SolidLogin: () => import  ("@/components/SolidLogin.vue"),
+    SolidLogin: () => import  ("@/components/Solid/SolidLogin.vue"),
+    AsNote: () => import  ("@/components/ActivityStreams/AsNote.vue"),
     ValidationProvider,
     ValidationObserver,
     BTabs,
