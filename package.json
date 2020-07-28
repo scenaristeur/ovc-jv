@@ -9,7 +9,7 @@
     "wc-build": "npm run build -- --target wc-async --inline-vue --name weather-widget",
     "wc-build-shighl-onlycomp": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*.vue",
     "wc-build-shighl": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*/*.vue",
-    "wc-build-all": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*.vue,/src/components/*/*.vue",
+    "wc-build-all": "npm run build -- --target wc-async --inline-vue --name shighl ./src/App.vue,./src/components/*.vue,./src/components/*/*.vue",
     "wc-build-basic": "npm run build -- --target wc --inline-vue --name weather-widget",
     "wc-test": "cd dist && live-server --port=8080 --entry-file=./demo.html",
     "git": "npm run wc-build-all && git add . && git commit -m",
