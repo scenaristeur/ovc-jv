@@ -28,5 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # inspiré de
 https://dev.to/oxyyyyy/simple-weather-app-on-vue-js-1g20
