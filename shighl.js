@@ -8713,6 +8713,8 @@ window.customElements.define('shighl-as-object', vue_wc_wrapper(vue_runtime_esm[
 
 window.customElements.define('shighl-common-log', vue_wc_wrapper(vue_runtime_esm["default"], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, "d513"))))
 
+window.customElements.define('shighl-r-object', vue_wc_wrapper(vue_runtime_esm["default"], () => __webpack_require__.e(/* import() */ 21).then(__webpack_require__.bind(null, "bb6b"))))
+
 window.customElements.define('shighl-solid-login', vue_wc_wrapper(vue_runtime_esm["default"], () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(12)]).then(__webpack_require__.bind(null, "8638"))))
 
 /***/ }),
