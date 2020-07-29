@@ -45,6 +45,7 @@
     <div class="page">
       <hr>
       <h1> Documentation </h1>
+
       <p>All OVC-JV component has it's own doc in it you just add to include (copy all files in the /dist folder of the repo) it on a webpage as any other web component and set the attribute doc="true" or doc=true. </p>
       <p>
         example :
@@ -91,6 +92,10 @@
           <Forecast />
         </b-tab>
       </b-tabs>
+
+
+    <RObject />
+
     </div>
     <a href="https://github.com/scenaristeur/ovc-jv" target="_blank">Source</a>
   </div>
@@ -123,6 +128,7 @@ export default {
     SolidLogin: () => import  ("@/components/Solid/SolidLogin.vue"),
     AsNote: () => import  ("@/components/ActivityStreams/AsNote.vue"),
     CommonLog: () => import  ("@/components/Common/CommonLog.vue"),
+    RObject: () => import  ("@/components/Renderless/RObject.vue"),
     ValidationProvider,
     ValidationObserver,
 

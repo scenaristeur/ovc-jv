@@ -42,14 +42,14 @@ module.exports.__inject__ = function (shadowRoot) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6df1568d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=3fc17442&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6df1568d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=71e2e14a&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',[_c('b-navbar',{attrs:{"toggleable":"lg","type":"dark","variant":"info"}},[_c('b-navbar-brand',{attrs:{"href":"#"}},[_vm._v("OVC-JV")]),_c('b-navbar-toggle',{attrs:{"target":"nav-collapse"}}),_c('b-collapse',{attrs:{"id":"nav-collapse","is-nav":""}},[_c('b-navbar-nav',[_c('b-nav-item',{attrs:{"href":"#"}},[_vm._v("Common")]),_c('b-nav-item',{attrs:{"href":"#"}},[_vm._v("ActivityStreams / ActivityPub")]),_c('b-nav-item',{attrs:{"href":"#"}},[_vm._v("Solid")])],1),_c('b-navbar-nav',{staticClass:"ml-auto"},[_c('b-nav-form',[_c('b-form-input',{staticClass:"mr-sm-2",attrs:{"size":"sm","placeholder":"Search"}}),_c('b-button',{staticClass:"my-2 my-sm-0",attrs:{"size":"sm","type":"submit"}},[_vm._v("Search")])],1),_c('b-nav-item-dropdown',{attrs:{"text":"Lang","right":""}},[_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("EN")]),_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("ES")]),_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("RU")]),_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("FA")])],1),_c('b-nav-item-dropdown',{attrs:{"right":""},scopedSlots:_vm._u([{key:"button-content",fn:function(){return [_c('em',[_vm._v("User")])]},proxy:true}])},[_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("Profile")]),_c('b-dropdown-item',{attrs:{"href":"#"}},[_vm._v("Sign Out")])],1)],1)],1)],1)],1),_c('div',{staticClass:"page"},[_c('hr'),_c('h1',[_vm._v(" Documentation ")]),_c('p',[_vm._v("All OVC-JV component has it's own doc in it you just add to include (copy all files in the /dist folder of the repo) it on a webpage as any other web component and set the attribute doc=\"true\" or doc=true. ")]),_c('p',[_vm._v(" example : "),_c('b-alert',{attrs:{"variant":"success","show":""}},[_c('SolidLogin',{attrs:{"msg":"This is a SolidLogin Component with no doc"}}),_c('hr'),_c('SolidLogin',{attrs:{"msg":"This is a SolidLogin Component with doc","doc":"true"}})],1)],1),_c('hr'),_c('h1',[_vm._v("Activity Streams ")]),_c('AsNote',{attrs:{"msg":"this is message for ASNOTE"}}),_c('hr'),_c('h1',[_vm._v("Common")]),_c('CommonLog',{attrs:{"msg":"here is the common log"}}),_c('hr'),_vm._v(" Other tests, will be remove "),_c('ValidationObserver',{ref:"observer",scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('b-form',{attrs:{"novalidate":""},on:{"submit":function($event){$event.preventDefault();return _vm.onSubmit($event)}}},[_c('b-form-group',{attrs:{"label":"Keyword","label-for":"keyword"}},[_c('ValidationProvider',{attrs:{"name":"keyword","rules":"required"},scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var errors = ref.errors;
-return [_c('b-form-input',{attrs:{"state":errors.length == 0,"type":"text","required":"","placeholder":"Keyword","name":"keyword"},model:{value:(_vm.form.keyword),callback:function ($$v) {_vm.$set(_vm.form, "keyword", $$v)},expression:"form.keyword"}}),_c('b-form-invalid-feedback',{attrs:{"state":errors.length == 0}},[_vm._v("Keyword is required")])]}}])})],1),_c('b-button',{attrs:{"type":"submit","variant":"primary"}},[_vm._v("Search")]),_c('b-button',{attrs:{"variant":"primary"},on:{"click":_vm.add}},[_vm._v("Add")]),_vm._v(" nn "+_vm._s(_vm.count)+"ll ")],1)]},proxy:true}])}),_c('br'),_c('b-tabs',[_c('b-tab',{attrs:{"title":"Current Weather"}},[_c('CurrentWeather')],1),_c('b-tab',{attrs:{"title":"Forecast"}},[_c('Forecast')],1)],1)],1),_c('a',{attrs:{"href":"https://github.com/scenaristeur/ovc-jv","target":"_blank"}},[_vm._v("Source")])])}
+return [_c('b-form-input',{attrs:{"state":errors.length == 0,"type":"text","required":"","placeholder":"Keyword","name":"keyword"},model:{value:(_vm.form.keyword),callback:function ($$v) {_vm.$set(_vm.form, "keyword", $$v)},expression:"form.keyword"}}),_c('b-form-invalid-feedback',{attrs:{"state":errors.length == 0}},[_vm._v("Keyword is required")])]}}])})],1),_c('b-button',{attrs:{"type":"submit","variant":"primary"}},[_vm._v("Search")]),_c('b-button',{attrs:{"variant":"primary"},on:{"click":_vm.add}},[_vm._v("Add")]),_vm._v(" nn "+_vm._s(_vm.count)+"ll ")],1)]},proxy:true}])}),_c('br'),_c('b-tabs',[_c('b-tab',{attrs:{"title":"Current Weather"}},[_c('CurrentWeather')],1),_c('b-tab',{attrs:{"title":"Forecast"}},[_c('Forecast')],1)],1),_c('RObject')],1),_c('a',{attrs:{"href":"https://github.com/scenaristeur/ovc-jv","target":"_blank"}},[_vm._v("Source")])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=3fc17442&shadow
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=71e2e14a&shadow
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
 var es_promise = __webpack_require__("e6cf");
@@ -178,6 +178,11 @@ var bootstrap_vue = __webpack_require__("2dd8");
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -201,6 +206,7 @@ vue_runtime_esm["default"].use(icons_plugin["a" /* IconsPlugin */]);
     SolidLogin: () => __webpack_require__.e(/* import() */ 19).then(__webpack_require__.bind(null, "f54e")),
     AsNote: () => __webpack_require__.e(/* import() */ 15).then(__webpack_require__.bind(null, "521b")),
     CommonLog: () => __webpack_require__.e(/* import() */ 17).then(__webpack_require__.bind(null, "eb0a")),
+    RObject: () => __webpack_require__.e(/* import() */ 20).then(__webpack_require__.bind(null, "3a9e")),
     ValidationProvider: vee_validate_esm["b" /* ValidationProvider */],
     ValidationObserver: vee_validate_esm["a" /* ValidationObserver */]
   },

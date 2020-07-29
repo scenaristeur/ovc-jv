@@ -1,5 +1,6 @@
 const APIURL = "http://api.openweathermap.org";
-const axios = require("axios");export const requestsMixin = {
+const axios = require("axios");
+export const requestsMixin = {
   methods: {
     searchWeather(loc) {
       return axios.get(
