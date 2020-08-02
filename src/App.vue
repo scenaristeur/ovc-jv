@@ -8,9 +8,10 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="#">Common</b-nav-item>
-            <b-nav-item href="#">ActivityStreams / ActivityPub</b-nav-item>
-            <b-nav-item href="#">Solid</b-nav-item>
+            <b-nav-item href="common">Common</b-nav-item>
+            <b-nav-item href="activitystreams">ActivityStreams / ActivityPub</b-nav-item>
+            <b-nav-item href="solid">Solid</b-nav-item>
+            <b-nav-item href="chat">Chat</b-nav-item>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
@@ -45,6 +46,8 @@
     <div class="page">
       <hr>
       <h1> Documentation </h1>
+      <SolidChat chatPath="https://parle.solid.commmunity/public/test/"/>
+      <hr>
 
       <p>All OVC-JV component has it's own doc in it you just add to include (copy all files in the /dist folder of the repo) it on a webpage as any other web component and set the attribute doc="true" or doc=true. </p>
       <p>
@@ -57,7 +60,10 @@
         </b-alert>
 
       </p>
+
+      <SolidMessages />
       <hr>
+
       <h1>Activity Streams </h1>
       <AsNote msg="this is message for ASNOTE" />
       <hr>
@@ -94,7 +100,7 @@
       </b-tabs>
 
 
-    <RObject />
+      <RObject />
 
     </div>
     <a href="https://github.com/scenaristeur/ovc-jv" target="_blank">Source</a>
@@ -125,7 +131,11 @@ export default {
   components: {
     CurrentWeather: () => import ("@/components/CurrentWeather.vue"),
     Forecast: () => import  ("@/components/Forecast.vue"),
+
     SolidLogin: () => import  ("@/components/Solid/SolidLogin.vue"),
+    SolidMessages: () => import  ("@/components/Solid/SolidMessages.vue"),
+    SolidChat: () => import  ("@/components/Solid/SolidChat.vue"),
+
     AsNote: () => import  ("@/components/ActivityStreams/AsNote.vue"),
     CommonLog: () => import  ("@/components/Common/CommonLog.vue"),
     RObject: () => import  ("@/components/Renderless/RObject.vue"),

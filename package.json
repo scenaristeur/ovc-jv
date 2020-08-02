@@ -4,8 +4,8 @@
   "private": false,
   "homepage": "https://scenaristeur.github.io/ovc-jv/demo.html",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/scenaristeur/ovc-jv.git"
+    "type": "git",
+    "url": "https://github.com/scenaristeur/ovc-jv.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -19,13 +19,16 @@
     "wc-test": "cd dist && live-server --port=8080 --entry-file=./demo.html",
     "git": "npm run wc-build-all && git add . && git commit -m",
     "postgit": "git push && git subtree push --prefix dist origin gh-pages"
-
   },
   "dependencies": {
+    "@solid/query-ldflex": "^2.11.2",
     "axios": "^0.19.2",
-    "bootstrap-vue": "^2.15.0",
+    "bootstrap-vue": "^2.16.0",
     "core-js": "^3.6.5",
-    "vee-validate": "^3.3.7",
+    "rdf-namespaces": "^1.8.0",
+    "solid-auth-client": "^2.5.0",
+    "tripledoc": "^4.3.4",
+    "vee-validate": "^3.3.8",
     "vue": "^2.6.11",
     "vuex": "^3.4.0"
   },
@@ -35,7 +38,7 @@
     "@vue/cli-plugin-vuex": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
     "babel-eslint": "^10.1.0",
-    "css-loader": "^4.0.0",
+    "css-loader": "^4.2.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "live-server": "^1.2.1",
@@ -49,8 +52,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
