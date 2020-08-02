@@ -1,199 +1,49 @@
 (window["shighl_jsonp"] = window["shighl_jsonp"] || []).push([[11],{
 
-/***/ "3ff6":
+/***/ 0:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 1:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ "440c":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("f319");
+var content = __webpack_require__("82e7");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to Shadow Root
 var add = __webpack_require__("35d6").default
 module.exports.__inject__ = function (shadowRoot) {
-  add("5c96df9a", content, shadowRoot)
+  add("c29d6ba0", content, shadowRoot)
 };
 
 /***/ }),
 
-/***/ "66e8":
+/***/ "7eba":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3ff6");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forecast_vue_vue_type_style_index_0_id_1a732e8a_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("440c");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SolidLogin_vue_vue_type_style_index_0_id_246a5a06_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ "c6db":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return requestsMixin; });
-const APIURL = "http://api.openweathermap.org";
-
-const axios = __webpack_require__("bc3a");
-
-const requestsMixin = {
-  methods: {
-    searchWeather(loc) {
-      return axios.get(`${APIURL}/data/2.5/weather?q=${loc}&appid=${"2ff19ad76092e0aa781bb55d473a6c12"}`);
-    },
-
-    searchForecast(loc) {
-      return axios.get(`${APIURL}/data/2.5/forecast?q=${loc}&appid=${"2ff19ad76092e0aa781bb55d473a6c12"}`);
-    }
-
-  }
-};
-
-/***/ }),
-
-/***/ "c844":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6df1568d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Forecast.vue?vue&type=template&id=1a732e8a&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('br'),_vm._v(" "+_vm._s(_vm.msg)+" "),_c('b-button',{attrs:{"variant":"primary"},on:{"click":_vm.add}},[_vm._v("Add 90")]),_vm._v(" !! "+_vm._s(_vm.count)+" mm "),_vm._l((_vm.forecast.list),function(l,i){return _c('b-list-group',{key:i},[_c('b-list-group-item',[_c('b',[_vm._v("Date: "+_vm._s(l.dt_txt))])]),_c('b-list-group-item',[_vm._v("Temperature: "+_vm._s(l.main.temp - 273.15)+" C")]),_c('b-list-group-item',[_vm._v("High: "+_vm._s(l.main.temp_max - 273.15)+" C")]),_c('b-list-group-item',[_vm._v("Low: "+_vm._s(l.main.temp_min)+"mb")]),_c('b-list-group-item',[_vm._v("Pressure: "+_vm._s(l.main.pressure)+"mb")])],1)})],2)}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/components/Forecast.vue?vue&type=template&id=1a732e8a&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
-var es_promise = __webpack_require__("e6cf");
-
-// EXTERNAL MODULE: ./src/mixins/requestsMixin.js
-var requestsMixin = __webpack_require__("c6db");
-
-// EXTERNAL MODULE: ./src/store/index.js
-var store = __webpack_require__("4360");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap-vue/esm/components/list-group/list-group.js
-var list_group = __webpack_require__("3135");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap-vue/esm/components/list-group/list-group-item.js
-var list_group_item = __webpack_require__("d247");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap-vue/esm/components/button/button.js
-var button_button = __webpack_require__("1947");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.css
-var bootstrap = __webpack_require__("f9e3");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap-vue/dist/bootstrap-vue.css
-var bootstrap_vue = __webpack_require__("2dd8");
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Forecast.vue?vue&type=script&lang=js&
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-/* harmony default export */ var Forecastvue_type_script_lang_js_ = ({
-  store: store["a" /* default */],
-  name: "Forecast",
-  mixins: [requestsMixin["a" /* requestsMixin */]],
-  components: {
-    BListGroup: list_group["a" /* BListGroup */],
-    BListGroupItem: list_group_item["a" /* BListGroupItem */],
-    BButton: button_button["a" /* BButton */]
-  },
-  props: {
-    msg: String
-  },
-  computed: {
-    keyword() {
-      return this.$store.state.keyword;
-    },
-
-    count() {
-      console.log(this.$store.state.count);
-      return this.$store.state.count;
-    }
-
-  },
-
-  data() {
-    return {
-      forecast: []
-    };
-  },
-
-  watch: {
-    async keyword(val) {
-      const response = await this.searchForecast(val);
-      this.forecast = response.data;
-    }
-
-  },
-  methods: {
-    add() {
-      console.log("add", 8);
-      this.$store.commit("add", 8);
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./src/components/Forecast.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Forecastvue_type_script_lang_js_ = (Forecastvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("2877");
-
-// CONCATENATED MODULE: ./src/components/Forecast.vue
-
-
-
-function injectStyles (context) {
-  
-  var style0 = __webpack_require__("66e8")
-if (style0.__inject__) style0.__inject__(context)
-
-}
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  components_Forecastvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  injectStyles,
-  "1a732e8a",
-  null
-  ,true
-)
-
-/* harmony default export */ var Forecast = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "f319":
+/***/ "82e7":
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -208,6 +58,204 @@ exports.push([module.i, "", ""]);
 // Exports
 module.exports = exports;
 
+
+/***/ }),
+
+/***/ "f54e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3fb395a8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Solid/SolidLogin.vue?vue&type=template&id=246a5a06&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hello"},[_c('div',{staticClass:"solid-login"},[(_vm.logged==false)?_c('b-button',{attrs:{"variant":"success"},on:{"click":_vm.login}},[_vm._v("Login")]):_c('b-button',{attrs:{"variant":"danger"},on:{"click":_vm.logout}},[_vm._v("Logout")]),_c('div',{staticClass:"brute-hide"},[_vm._v(" logged : "+_vm._s(_vm.logged)),_c('br'),_vm._v(" webId : "+_vm._s(_vm.webId)),_c('br'),_vm._v(" storage: "+_vm._s(_vm.storage)+" "),_c('hr')])],1),(_vm.doc)?_c('div',[_c('b-alert',{attrs:{"show":""}},[_c('p',[_vm._v(" Pour cacher afficher cette doc utilisez l'attribut doc=\"true\" / doc =\" false\" AFFICHAGE ICI DE LA DOC OU DU LIEN VERS LA DOC PLUS COMPLETE de "),_c('b',[_vm._v(_vm._s(_vm.$options.name))])]),_c('a',{attrs:{"href":"https://github.com/scenaristeur/ovc-jv/tree/master/src/components/Solid","target":"_blank"}},[_vm._v("more")])])],1):_vm._e()])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Solid/SolidLogin.vue?vue&type=template&id=246a5a06&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
+var es_promise = __webpack_require__("e6cf");
+
+// EXTERNAL MODULE: ./src/store/index.js + 1 modules
+var store = __webpack_require__("4360");
+
+// EXTERNAL MODULE: ./node_modules/bootstrap-vue/esm/components/button/button.js
+var button_button = __webpack_require__("1947");
+
+// EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.css
+var bootstrap = __webpack_require__("f9e3");
+
+// EXTERNAL MODULE: ./node_modules/bootstrap-vue/dist/bootstrap-vue.css
+var bootstrap_vue = __webpack_require__("2dd8");
+
+// EXTERNAL MODULE: ./node_modules/solid-auth-client/browser/index.js
+var browser = __webpack_require__("00e8");
+var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
+
+// EXTERNAL MODULE: ./node_modules/tripledoc/dist/index.es.js + 5 modules
+var index_es = __webpack_require__("4d8d");
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Solid/SolidLogin.vue?vue&type=script&lang=js&
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+ //import solid from '@solid/query-ldflex';
+//import { foaf } from 'rdf-namespaces';
+
+console.log("FETCHDOCUMENT", index_es["a" /* fetchDocument */]); //import * as solid from  '@solid/query-ldflex'
+//console.log("data",solid)
+
+/* harmony default export */ var SolidLoginvue_type_script_lang_js_ = ({
+  store: store["a" /* default */],
+  name: 'SolidLogin',
+  props: {
+    attribut: String,
+    msg: String,
+    doc: [Boolean, String]
+  },
+  components: {
+    BButton: button_button["a" /* BButton */] //  auth
+
+  },
+  data: function () {
+    return {
+      logged: false,
+      webId: null,
+      storage: "boo"
+    };
+  },
+
+  created() {
+    browser_default.a.trackSession(async session => {
+      if (!session) {
+        this.logged = false;
+        this.webId = null;
+        console.log('The user is not logged in', this.logged, this.webId);
+        this.$store.commit('solid/setWebId', this.webId);
+        this.$store.commit('solid/setLogged', false); //  this.$store.commit('solid/setStorage', "")
+      } else {
+        this.logged = true;
+        this.webId = session.webId;
+        console.log(`The user is ${session.webId}`);
+        this.$store.commit('solid/setWebId', this.webId);
+        this.$store.commit('solid/setLogged', true);
+        /*     let st  = await solid.data[session.webId].storage
+              this.storage = `${st}`
+              console.log(this.storage)
+              this.$store.commit('local/setStorage', this.storage)*/
+
+        /*  console.log("STORAGE",`${solid.data.user.storage}`)
+        let st = `${solid.data.user.storage}`
+        console.log("STORAGE",st)
+        this.$store.commit('storage', st)*/
+      }
+    });
+  },
+
+  computed: {
+    count() {
+      console.log(this.$store.state.count);
+      return this.$store.state.count;
+    }
+
+  },
+  methods: {
+    add() {
+      console.log("add", 8);
+      this.$store.commit("add", 8);
+    },
+
+    login() {
+      this.popupLogin();
+    },
+
+    logout() {
+      browser_default.a.logout();
+    },
+
+    async popupLogin() {
+      let session = await browser_default.a.currentSession();
+      let popupUri = 'https://solid.community/common/popup.html';
+      if (!session) session = await browser_default.a.popupLogin({
+        popupUri
+      }); //  alert(`Logged in as ${session.webId}`);
+    }
+
+  }
+});
+// CONCATENATED MODULE: ./src/components/Solid/SolidLogin.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Solid_SolidLoginvue_type_script_lang_js_ = (SolidLoginvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/components/Solid/SolidLogin.vue
+
+
+
+function injectStyles (context) {
+  
+  var style0 = __webpack_require__("7eba")
+if (style0.__inject__) style0.__inject__(context)
+
+}
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Solid_SolidLoginvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  injectStyles,
+  "246a5a06",
+  null
+  ,true
+)
+
+/* harmony default export */ var SolidLogin = __webpack_exports__["default"] = (component.exports);
 
 /***/ })
 
