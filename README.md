@@ -1,3 +1,14 @@
+# Build one component
+```
+# build SolidLogin
+#"b-solid-login": "npm run build -- --target wc-async --inline-vue --name solid-login src/components/Solid/SolidLogin.vue",
+npm run b-solid-login
+
+
+
+```
+
+
 # Goal
 Async web components using Vuejs/view. To represent the new world. Ex composants representing :
 

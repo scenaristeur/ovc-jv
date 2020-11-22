@@ -11,6 +11,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "b-solid-login": "npm run build -- --target wc-async --inline-vue --name solid-login src/components/Solid/SolidLogin.vue",
+    "gitSL": "npm run b-solid-login && git add . && git commit -m",
     "wc-build": "npm run build -- --target wc-async --inline-vue --name weather-widget",
     "wc-build-shighl-onlycomp": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*.vue",
     "wc-build-shighl": "npm run build -- --target wc-async --inline-vue --name shighl ./src/components/*/*.vue",
