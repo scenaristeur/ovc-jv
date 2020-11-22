@@ -4,10 +4,13 @@
 #"b-solid-login": "npm run build -- --target wc-async --inline-vue --name solid-login src/components/Solid/SolidLogin.vue",
 npm run b-solid-login
 
-
-
 ```
 
+# Build & publish one component
+```
+"git": "npm run wc-build-all && git add . && git commit -m",
+git subtree push --prefix dist origin gh-pages
+```
 
 # Goal
 Async web components using Vuejs/view. To represent the new world. Ex composants representing :
